@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link rel="stylesheet" href="public.css"/>
+    <link rel="stylesheet" href="swiper-3.3.1.min.css"/>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="jquery-1.12.4.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="swiper-3.3.1.jquery.min.js"></script>
+</head>
+<body onload="startTime()">
+<div id="top">
+    <span></span>
+    <a href="#"><i class="glyphicon glyphicon-search"></i>寻找宝贝店铺</a>
+</div>
+<div id="bottom-nav">
+    <div>
+        <i class="glyphicon glyphicon-home"></i>
+        <p>首页</p>
+    </div>
+    <div>
+        <i class="glyphicon glyphicon-send"></i>
+        <p>物流</p>
+    </div>
+    <div>
+        <i class="glyphicon glyphicon-shopping-cart"></i>
+        <p>购物车</p>
+    </div>
+    <div>
+        <i class="glyphicon glyphicon-user"></i>
+        <p>我的淘宝</p>
+    </div>
+    <div>
+        <i class="glyphicon glyphicon glyphicon-th-large"></i>
+        <p>更多</p>
+    </div>
+</div>
+<div id="returnTop">
+    <i class="glyphicon glyphicon-arrow-up"></i>
+    <p>顶部</p>
+</div>
+<div id="header">
+    <div class="swiper-container swiper-container1 swiper-container-horizontal">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner1.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner2.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner3.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner4.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner5.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner1.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner7.jpg" alt=""/></div>
+            <div class="swiper-slide"><img src="images/banner8.jpg" alt=""/></div>
+
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination1 swiper-pagination-clickable swiper-pagination-bullets" style="margin-left: 4.5rem">
+            <span class="swiper-pagination-bullet  swiper-pagination-bullet-active"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+        </div>
+    </div>
+    <div class="link">
+        <ul>
+            <li><a href="#">
+                <img src="images/link-1.png" alt=""/>
+                <p>天猫</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-2.png" alt=""/>
+                <p>聚划算</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-3.png" alt=""/>
+                <p>到家</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-4.png" alt=""/>
+                <p>外卖</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-5.png" alt=""/>
+                <p>充值</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-6.png" alt=""/>
+                <p>阿里旅行</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-7.png" alt=""/>
+                <p>领金币</p>
+            </a></li>
+            <li><a href="#">
+                <img src="images/link-8.png" alt=""/>
+                <p>分类</p>
+            </a></li>
+        </ul>
+    </div>
+    <div class="header-footer">
+        <a href="#">
+            <img src="images/taobaotoutiao.png" alt=""/>
+            <span class="header-news">最新</span>
+            <span>一副墨镜秒变国民老公</span>
+        </a>
+    </div>
+</div>
+<div id="main">
+    <div id="time">
+        <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span>
+    </div>
+    <div class="main-box">
+        <div class="box-left box-width-6 box-height-7">
+            <a href="#"><img class="box-width-6 box-height-7 border-right" src="images/qianggou1.jpg" alt="加载中"/></a>
+        </div>
+        <div class="box-right box-height-7 box-width-10">
+            <a href="#"><div class="box-right-top box-width-10 box-height-3"><img class="box-width-6 box-height-3 border-bottom" src="images/qianggou2.png" alt=""/><img class="border-bottom box-width-4 box-height-3" src="images/qianggou3.jpg" alt=""/></div></a>
+            <a href="#"> <div class="box-right-bottom box-width-10 box-height-4"><img class="border-right box-width-5 box-height-4" src="images/qianggou4.jpg" alt=""/><img class="box-width-5 box-height-4" src="images/qianggou5.jpg" alt=""/></div></a>
+        </div>
+        <div class="clear"></div>
+        <div class="box-footer box-width-16 box-height-2">
+            <span class="box-line-left"></span>
+            <img class="box-height-1 box-width-1" src="images/qianggou6.png" alt=""/><span class="box-title color-red">超实惠</span>
+            <span class="box-line-right"></span>
+        </div>
+    </div>
+    <div class="main-box">
+        <div class="box-left box-width-5-8 box-height-10">
+            <a href="#"> <img class="box-width-5-8 box-height-5 border-right" src="images/quality1.jpg" alt="加载中"/></a><a href="#"><img class="box-width-5-8 box-height-5 border-right" src="images/quality5.png" alt="加载中"/></a>
+        </div>
+        <div class="box-right box-width-9 box-height-3">
+            <a href="#"> <div class="box-right-top box-width-10-2 box-height-5"><img class="box-width-3-4 box-height-5 border-bottom border-right" src="images/quality2.png" alt=""/><img class="border-bottom box-width-3-4 box-height-5 border-right" src="images/quality3.png" alt=""/><img class="box-width-3-4 box-height-5 border-bottom" src="images/quality4.jpg" alt=""/></div></a>
+            <a href="#"><div class="box-right-bottom box-width-10-2 box-height-5"><img class="box-width-3-4 box-height-5 border-right" src="images/quality6.png" alt=""/><img class="box-width-3-4 box-height-5 border-right" src="images/quality7.png" alt=""/><img class="box-width-3 box-height-5" src="images/quality8.png" alt=""/></div></a>
+        </div>
+        <div class="clear"></div>
+        <div class="box-footer box-width-16 box-height-2">
+            <span class="box-line-left"></span>
+            <img class="box-height-1 box-width-1" src="images/quality9.png" alt=""/><span class="box-title color-purple">好品质</span>
+            <span class="box-line-right"></span>
+        </div>
+    </div>
+    <div class="main-box">
+        <div class="box-right box-height-9 box-width-16">
+            <a href="#"> <div class="box-right-top box-width-16 box-height-4"><img class="box-width-10 box-height-4 border-bottom border-right" src="images/feature1.png" alt=""/><img class="box-width-6 box-height-4 border-bottom" src="images/feature2.png" alt=""/></div></a>
+            <a href="#"><div class="box-right-bottom box-width-16 box-height-5"><img class="box-width-3 box-height-5 border-right" src="images/feature3.jpg" alt=""/><img class="box-width-3 box-height-5 border-right" src="images/feature4.png" alt=""/><img class="box-width-3 box-height-5 border-right" src="images/feature5.png" alt=""/><img class="box-width-3 box-height-5 border-right" src="images/feature6.jpg" alt=""/><img class="box-width-3 box-height-5" src="images/feature8.jpg" alt=""/></div></a>
+        </div>
+        <div class="clear"></div>
+        <div class="box-footer box-width-16 box-height-2">
+            <span class="box-line-left"></span>
+            <img class="box-height-1 box-width-1" src="images/feature7.png" alt=""/><span class="box-title color-yellow">超实惠</span>
+            <span class="box-line-right"></span>
+        </div>
+    </div>
+    <div class="main-box">
+        <div class="box-left box-width-5-8 box-height-10">
+            <a href="#"><img class="box-width-5-8 box-height-5 border-right" src="images/market1.png" alt="加载中"/></a><img class="box-width-5-8 box-height-5 border-right" src="images/market2.png" alt="加载中"/>
+        </div>
+        <div class="box-right box-width-9 box-height-3">
+            <a href="#"> <div class="box-right-top box-width-10-2 box-height-5"><img class="box-width-3-4 box-height-5 border-bottom border-right" src="images/market3.png" alt=""/><img class="border-bottom box-width-3-4 box-height-5 border-right" src="images/market4.png" alt=""/><img class="box-width-3-4 box-height-5 border-bottom" src="images/market5.png" alt=""/></div></a>
+            <a href="#"><div class="box-right-bottom box-width-10-2 box-height-5"><img class="box-width-3-4 box-height-5 border-right" src="images/market6.png" alt=""/><img class="box-width-3-4 box-height-5 border-right" src="images/market7.png" alt=""/><img class="box-width-3 box-height-5" src="images/market8.png" alt=""/></div></a>
+        </div>
+        <div class="clear">
+            <a href="#"><img class="box-width-16 box-height-3" src="images/market10.jpg" alt=""/></a>
+        </div>
+        <div class="box-footer box-width-16 box-height-2">
+            <span class="market-line-left"></span>
+            <img  class="box-height-1 box-width-1 footer-img" src="images/market11.png" alt=""/><span class="box-title color-green">热门市场</span>
+            <span class="market-line-right"></span>
+            <span class="market-more">更多<i><img src="images/jiantou.png" alt=""/></i></span>
+        </div>
+    </div>
+    <div class="main-box">
+        <div class="box-market box-width-8">
+            <a href="#">
+                <h5>女装</h5>
+                <p>新品推荐</p>
+            </a>
+            <a href="#"><img class="box-width-8" src="images/shop1.jpg" alt=""/></a>
+        </div>
+        <div class="box-market box-width-8">
+            <a href="#">
+                <h5>母婴</h5>
+                <p>妈妈必备</p>
+            </a>
+            <a href="#"><img class="box-width-8" src="images/shop2.jpg" alt=""/></a>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>珠宝</h5>
+            <p>时尚搭配</p>
+            <img class="box-width-4" src="images/shop7.jpg" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>箱包</h5>
+            <p>潮流特卖</p>
+            <img class="box-width-4" src="images/shop12.png" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>鞋履</h5>
+            <p>单鞋热卖</p>
+            <img class="box-width-4" src="images/shop5.jpg" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>家装</h5>
+            <p>一站式采购</p>
+            <img class="box-width-4" src="images/shop11.png" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>iFashion</h5>
+            <p>每日新鲜潮</p>
+            <img class="box-width-4" src="images/shop6.jpg" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5>网厅</h5>
+            <p>小米MAX</p>
+            <img class="box-width-4" src="images/shop4.jpg" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5 class="color-red">花鸟</h5>
+            <p>鸟语花香</p>
+            <img class="box-width-4" src="images/shop3.jpg" alt=""/>
+        </div>
+        <div class="box-small-market box-width-4">
+            <h5 class="color-red">男装</h5>
+            <p>新品推荐</p>
+            <img class="box-width-4" src="images/shop10.jpg" alt=""/>
+        </div>
+        <div class="box-small-footer">
+            <img class="box-width-16" src="images/shop-footer.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="main-store">
+        <div class="store-title">
+            <span class="store-title-first"></span>
+            <span>每日好店</span>
+            <span class="store-title-last">更新40个店<i></i></span>
+        </div>
+        <div class="swiper-container swiper-container2 swiper-container-horizontal">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store1-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store1-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store1-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">生活家--爱的杂货铺</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-4.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-5.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-6.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                    <div class="store-content">
+                        <a href="#"><img class="store-content-left" src="images/store4-1.jpg" alt=""/></a>
+                        <div class="store-content-right">
+                            <a href="#"><img class="store-content-top" src="images/store4-2.jpg" alt=""/></a>
+                            <a href="#"><img class="store-content-bottom" src="images/store4-3.jpg" alt=""/></a>
+                        </div>
+                        <p class="store-content-footer">一间老店-N个故事</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination2 swiper-pagination-clickable swiper-pagination-bullets" style="margin-left: 6.2rem">
+                <span class="swiper-pagination-bullet  swiper-pagination-bullet-active"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+                <span class="swiper-pagination-bullet"></span>
+            </div>
+        </div>
+    </div>
+    <div class="main-like">
+        <div class="like-title">
+            <span class="like-line-left"></span>
+            猜你喜欢
+            <span class="like-line-right"></span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like1.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典</div>
+            <span>¥ 850.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like2.jpg" alt=""/>
+            <div>[为你推荐]创意进口水晶醒酒器 捷克水晶洋酒红酒酒瓶 玻璃密封瓶酒樽包邮</div>
+            <span>¥ 160.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like3.jpg" alt=""/>
+            <div>[为你推荐]LOMOGRAPHY LOMO’宽画幅拍立得自动测光/快门遥控/多重曝光/光绘</div>
+            <span>¥ 92.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like4.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典...</div>
+            <span>¥ 450.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like1.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典</div>
+            <span>¥ 850.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like2.jpg" alt=""/>
+            <div>[为你推荐]创意进口水晶醒酒器 捷克水晶洋酒红酒酒瓶 玻璃密封瓶酒樽包邮</div>
+            <span>¥ 160.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like3.jpg" alt=""/>
+            <div>[为你推荐]LOMOGRAPHY LOMO’宽画幅拍立得自动测光/快门遥控/多重曝光/光绘</div>
+            <span>¥ 92.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like4.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典...</div>
+            <span>¥ 450.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like1.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典</div>
+            <span>¥ 850.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like2.jpg" alt=""/>
+            <div>[为你推荐]创意进口水晶醒酒器 捷克水晶洋酒红酒酒瓶 玻璃密封瓶酒樽包邮</div>
+            <span>¥ 160.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like3.jpg" alt=""/>
+            <div>[为你推荐]LOMOGRAPHY LOMO’宽画幅拍立得自动测光/快门遥控/多重曝光/光绘</div>
+            <span>¥ 92.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like4.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典...</div>
+            <span>¥ 450.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like1.jpg" alt=""/>
+            <div>[为你推荐]现货！瑞士STADLERFORM/斯泰德乐 Otto奥托典</div>
+            <span>¥ 850.0</span>
+        </div>
+        <div class="main-like-box">
+            <img src="images/like2.jpg" alt=""/>
+            <div>[为你推荐]创意进口水晶醒酒器 捷克水晶洋酒红酒酒瓶 玻璃密封瓶酒樽包邮</div>
+            <span>¥ 160.0</span>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="footer-button">
+        <ul>
+            <li><a href="#">登陆</a></li>
+            <li><a href="#">注册</a></li>
+            <li><a href="#">电脑版</a></li>
+            <li><a href="#">用户反馈</a></li>
+        </ul>
+    </div>
+    <p>
+        <img src="images/download.png" alt=""/>
+        2016 浙 B2-20080224
+        <a href="#">服务中心</a>
+    </p>
+</div>
+</body>
+<script>
+    //屏幕自适应
+    var func = (function (doc, win) {
+        var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+                };
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvt, recalc, false);
+        doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+    //轮播header
+    var swiper = new Swiper('.swiper-container1', {
+        pagination: '.swiper-pagination1',
+        paginationClickable: false,
+        width : window.innerWidth,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: true
+    });
+
+    //轮播
+    var mySwiper = new Swiper('.swiper-container2', {
+        pagination: '.swiper-pagination2',
+        width : window.innerWidth,
+        paginationClickable: false
+    });
+
+    //返回顶部
+    $('#returnTop').click(function(){
+        $("body").animate({scrollTop:$('body').offset().top-40},300);
+    });
+    //返回顶部隐藏
+    $(window).scroll(function() {
+        var s = $('body').scrollTop();
+        if (s < $('#main').offset().top) {
+            $('#returnTop').css('display','none');
+        }else{
+            $('#returnTop').css('display','block');
+        }
+    })
+    //时间
+    function startTime(){
+        var today = new Date()
+        var h = today.getHours();
+        var m = today.getMinutes();
+        var s = today.getSeconds();
+        m = checkTime(m);
+        s = checkTime(s);
+        $('.hours').text(h);
+        $('.minutes').text(m);
+        $('.seconds').text(s);
+        t=setTimeout(function(){startTime()},500);
+    }
+    function checkTime(i){
+        if(i < 10){
+            i = "0"+i;
+        }
+        return i;
+    }
+</script>
+</html>
